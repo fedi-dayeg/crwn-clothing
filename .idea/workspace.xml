@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be4c2017-ce32-4e64-b34c-33acd17565da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/crown.svg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/form-input/form-input.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/form-input/form-input.style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/custom-button/custom-button.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/custom-button/custom-button.style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/sign-in-and-sign-up/sign-in-and-sign-up.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/sign-in-and-sign-up/sign-in-and-sign-up.style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +97,8 @@
       <option name="presentableId" value="Default" />
       <updated>1574199794069</updated>
       <workItem from="1574199798506" duration="4267000" />
-      <workItem from="1574258216402" duration="19281000" />
+      <workItem from="1574258216402" duration="19574000" />
+      <workItem from="1574358697429" duration="11083000" />
     </task>
     <servers />
   </component>
