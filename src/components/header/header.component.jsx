@@ -5,11 +5,15 @@ import {ReactComponent as Logo} from '../../assets/crown.svg.svg';
 import {auth} from "../../firebase/firebase.utils";
 
 import {connect} from 'react-redux';
-import {setCurrentUser} from "../../redux/user/user.actions";
 
 import CartIcon from "../cart-icon/cart-icon.component";
 
 import CartDropdown from "../cart-dropdown/cart-dropdown.component";
+
+import {createStructuredSelector} from "reselect";
+import {selectCartHidden} from "../../redux/cart/cart.selectors";
+//import {setCurrentUser} from "../../redux/user/user.actions";
+import {selectCurrentUser} from "../../redux/user/user.selectors";
 
 const Header = ({currentUser, hidden}) => (
     <div className='header'>
@@ -32,9 +36,9 @@ const Header = ({currentUser, hidden}) => (
     </div>
 );
 
-const mapStateTpProps = ({user: {currentUser}, cart: {hidden}}) => ({
-    currentUser,
-    hidden
+const mapStateTpProps = createStructuredSelector ({
+    currentUser: selectCurrentUser,
+    hidden: selectCartHidden
 });
 
 
