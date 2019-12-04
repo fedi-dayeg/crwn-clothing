@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be4c2017-ce32-4e64-b34c-33acd17565da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/cart/cart.selectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/user/user.selectors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +107,7 @@
       <workItem from="1574599426555" duration="9782000" />
       <workItem from="1574702822342" duration="12227000" />
       <workItem from="1574783569573" duration="17960000" />
-      <workItem from="1575477786270" duration="10582000" />
+      <workItem from="1575477786270" duration="16745000" />
     </task>
     <servers />
   </component>
@@ -138,6 +131,22 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1323" height="161" key="GridCell.Tab.0.bottom" timestamp="1575500718718">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="161" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1575500718718" />
+    <state width="1323" height="161" key="GridCell.Tab.0.center" timestamp="1575500718718">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="161" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1575500718718" />
+    <state width="1323" height="161" key="GridCell.Tab.0.left" timestamp="1575500718718">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="161" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1575500718718" />
+    <state width="1323" height="161" key="GridCell.Tab.0.right" timestamp="1575500718718">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="161" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1575500718718" />
     <state x="339" y="165" key="run.anything.popup" timestamp="1575492244296">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
