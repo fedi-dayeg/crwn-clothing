@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be4c2017-ce32-4e64-b34c-33acd17565da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/collections-overview/collections-overview.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/collections-overview/collections-overview.style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/collection/collection.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/collection/collection.style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/directory/directory.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/directory/directory.selectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop.reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop.selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/stripe-button/stripe-button.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/directory/directory.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory/directory.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/root-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/root-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/checkout/checkout.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/checkout/checkout.style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,7 +118,8 @@
       <workItem from="1576699110691" duration="223000" />
       <workItem from="1576699392491" duration="8253000" />
       <workItem from="1576786454338" duration="2774000" />
-      <workItem from="1576925312118" duration="3871000" />
+      <workItem from="1576925312118" duration="4669000" />
+      <workItem from="1577046546962" duration="3300000" />
     </task>
     <servers />
   </component>
@@ -157,22 +147,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="363" y="96" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.738@0.0.1366.738" timestamp="1576699209311" />
-    <state width="1323" height="158" key="GridCell.Tab.0.bottom" timestamp="1576931701747">
+    <state width="1323" height="158" key="GridCell.Tab.0.bottom" timestamp="1577053954688">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="158" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1576931701747" />
-    <state width="1323" height="158" key="GridCell.Tab.0.center" timestamp="1576931701747">
+    <state width="1323" height="158" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1577053954688" />
+    <state width="1323" height="158" key="GridCell.Tab.0.center" timestamp="1577053954688">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="158" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1576931701747" />
-    <state width="1323" height="158" key="GridCell.Tab.0.left" timestamp="1576931701747">
+    <state width="1323" height="158" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1577053954688" />
+    <state width="1323" height="158" key="GridCell.Tab.0.left" timestamp="1577053954688">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="158" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1576931701747" />
-    <state width="1323" height="158" key="GridCell.Tab.0.right" timestamp="1576931701747">
+    <state width="1323" height="158" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1577053954688" />
+    <state width="1323" height="158" key="GridCell.Tab.0.right" timestamp="1577053954688">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="158" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1576931701747" />
+    <state width="1323" height="158" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1577053954688" />
     <state x="339" y="165" key="run.anything.popup" timestamp="1575492244296">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
