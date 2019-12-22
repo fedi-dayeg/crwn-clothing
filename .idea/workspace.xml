@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be4c2017-ce32-4e64-b34c-33acd17565da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/stripe-button/stripe-button.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/checkout/checkout.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/checkout/checkout.style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +51,14 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fedid\WebstormProjects\crwn-clothing\src\assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fedid\WebstormProjects\crwn-clothing\public" />
       <recent name="C:\Users\fedid\WebstormProjects\crwn-clothing\src\redux\shop" />
       <recent name="C:\Users\fedid\WebstormProjects\crwn-clothing\src\assets" />
       <recent name="C:\Users\fedid\WebstormProjects\crwn-clothing\src\pages\homepage" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\fedid\WebstormProjects\crwn-clothing\src\assets" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -119,7 +115,8 @@
       <workItem from="1576699392491" duration="8253000" />
       <workItem from="1576786454338" duration="2774000" />
       <workItem from="1576925312118" duration="4669000" />
-      <workItem from="1577046546962" duration="3300000" />
+      <workItem from="1577046546962" duration="4166000" />
+      <workItem from="1577055583198" duration="1108000" />
     </task>
     <servers />
   </component>
@@ -147,22 +144,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="363" y="96" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.738@0.0.1366.738" timestamp="1576699209311" />
-    <state width="1323" height="158" key="GridCell.Tab.0.bottom" timestamp="1577053954688">
+    <state width="1323" height="158" key="GridCell.Tab.0.bottom" timestamp="1577055544252">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="158" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1577053954688" />
-    <state width="1323" height="158" key="GridCell.Tab.0.center" timestamp="1577053954688">
+    <state width="1323" height="158" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1577055544252" />
+    <state width="1323" height="158" key="GridCell.Tab.0.center" timestamp="1577055544252">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="158" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1577053954688" />
-    <state width="1323" height="158" key="GridCell.Tab.0.left" timestamp="1577053954688">
+    <state width="1323" height="158" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1577055544252" />
+    <state width="1323" height="158" key="GridCell.Tab.0.left" timestamp="1577055544252">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="158" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1577053954688" />
-    <state width="1323" height="158" key="GridCell.Tab.0.right" timestamp="1577053954688">
+    <state width="1323" height="158" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1577055544252" />
+    <state width="1323" height="158" key="GridCell.Tab.0.right" timestamp="1577055544252">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="158" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1577053954688" />
+    <state width="1323" height="158" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1577055544252" />
     <state x="339" y="165" key="run.anything.popup" timestamp="1575492244296">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
