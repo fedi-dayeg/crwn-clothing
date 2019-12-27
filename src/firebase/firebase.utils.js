@@ -14,7 +14,7 @@ const config = {
 };
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
-    if (!userAuth) return ;
+    if (!userAuth) return;
 
     const userRef = firestore.doc(`users/${userAuth.uid}`);
 
@@ -29,14 +29,27 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
                 createdAt,
                 ...additionalData
             });
-        }catch (e) {
+        } catch (e) {
             console.log('ERROR crating user', e.message);
         }
     }
 
     return userRef;
 
+};
 
+export const addCollectionAndDocuments = async (collectionkey, objectsdToAdd) => {
+    const collectionRef = firestore.collection(collectionkey);
+    console.log(collectionRef);
+
+    const batch = firestore.batch();
+    console.log(batch);
+    objectsdToAdd.forEach(obj => {
+        const newDocRef = collectionRef.doc();
+        console.log(newDocRef);
+        batch.set(newDocRef, obj);
+    });
+    return  await batch.commit();
 };
 
 firebase.initializeApp(config);

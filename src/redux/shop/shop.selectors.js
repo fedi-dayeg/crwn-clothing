@@ -8,7 +8,7 @@ export const selectCollections = createSelector(
 );
 
 export const selectCollectionForPeview = createSelector(
-    [selectShop],
+    [selectCollections],
     collections=> Object.keys(collections).map(key =>collections[key])
 )
 

@@ -19,6 +19,7 @@ import {createStructuredSelector} from "reselect";
 
 import CheckoutPage from "./pages/checkout/checkout.component";
 
+
 class App extends React.Component {
 
 
@@ -31,15 +32,14 @@ class App extends React.Component {
                 const userRef = await createUserProfileDocument(userAuth);
 
                 userRef.onSnapshot(snapshot => {
-                    this.props.setCurrentUser({
+                    setCurrentUser({
                         id: snapshot.id,
                         ...snapshot.data()
                     })
                 });
-            } else {
-                setCurrentUser(userAuth)
-
             }
+            setCurrentUser(userAuth);
+            //addCollectionAndDocuments('collections', collectionsArray.map(({title, items}) => ({title, items})));
 
         });
 
@@ -66,7 +66,7 @@ class App extends React.Component {
 }
 
 const mapStateToProps = createStructuredSelector({
-    currentUser: selectCurrentUser
+    currentUser: selectCurrentUser,
 });
 
 const mapDispatchToProps = dispatch => ({
